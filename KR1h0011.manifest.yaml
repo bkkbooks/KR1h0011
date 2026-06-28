@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR1h0011/v1
+canonical_location: https://kanripo.org/bkk/KR1h0011/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 孟子解
+  date: '2016-04-12 13:59:16.560441'
+  source:
+    repository: kanripo
+    path: KR1h0011
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR1h0011_000.yaml, hash: 'sha256:9134f5f019e2b00bc7d419a2f47f642931f897017fbd5fbe627010d689fa81e1'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR1h0011_000.markers.yaml, hash: 'sha256:5c3eb4c8e640a5a961f5dc8a47710c45c686f8cf1d11db15019fbd1add295eca'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR1h0011_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 5525
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:e28866d582180530d4b271edf78d727fca668118110d195e91a5c3ed51e3acde
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+editions:
+- short: WYG
